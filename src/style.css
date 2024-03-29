@@ -29,6 +29,7 @@ main {
 .generate-poem-button {
   border-radius: 20px;
   padding: 12px;
+  margin-left: 20px;
   border: none;
   background-color: #00bbf0;
   color: #fdb44b;
@@ -41,6 +42,13 @@ main {
   background-color: #fdb44b;
   color: #00bbf0;
   cursor: pointer;
+}
+
+.example {
+  color: grey;
+  margin-top: 0;
+  margin-left: 12.5px;
+  font-size: 17px;
 }
 
 .poem {

@@ -18,6 +18,13 @@ function generatePoem(event) {
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   axios.get(apiUrl).then(displayPoem);
+
+  new Typewriter("#poem", {
+    strings: `⏳ Cтворюю вірш для вас...`,
+    autoStart: true,
+    delay: 20,
+    cursor: null,
+  });
 }
 
 let poemFormElement = document.querySelector("#poem-generator-form");
