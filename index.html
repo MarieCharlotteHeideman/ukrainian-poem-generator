@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Ukrainian Poems</title>
   </head>
@@ -12,7 +13,7 @@
     </header>
 
     <main>
-      <form action="">
+      <form action="" id="poem-generator-form">
         <input
           type="text"
           placeholder="Enter the topic for your poem"
@@ -23,15 +24,7 @@
         <input type="submit" class="generate-poem-button" />
       </form>
 
-      <p class="poem">
-        Падав сніг на поріг.  
-        </br> Кіт зліпив собі пиріг. 
-        </br> Поки смажив, поки пік, 
-        </br> а пиріг — водою стік. 
-        </br> Кіт не знав, 
-        </br> що на пиріг треба тісто, 
-        </br> а не сніг.
-      </p>
+      <p class="poem" id="poem"></p>
     </main>
 
     <footer>
