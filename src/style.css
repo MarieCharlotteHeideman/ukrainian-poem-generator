@@ -1,0 +1,63 @@
+body {
+  background-color: #aad4ef;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 22px;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.topic-input {
+  border-radius: 20px;
+  padding: 10px;
+  width: 75%;
+  font-size: 16px;
+}
+
+.generate-poem-button {
+  border-radius: 20px;
+  padding: 12px;
+  border: none;
+  background-color: #00bbf0;
+  color: #fdb44b;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.generate-poem-button:hover {
+  background-color: #fdb44b;
+  color: #00bbf0;
+  cursor: pointer;
+}
+
+.poem {
+  line-height: 35px;
+  border-top: 1px solid rgb(165, 165, 165);
+  padding-top: 10px;
+  border-bottom: 1px solid rgb(165, 165, 165);
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.65;
+}
+
+a {
+  color: #00bbf0;
+}
