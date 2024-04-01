@@ -13,7 +13,7 @@ function generatePoem(event) {
   let userInput = document.querySelector("#user-input");
   let apiKey = "cd6b0ad6aoad4dt98fd5242505b3e7a3";
   let context =
-    "You are a poet who loves to write poems. Your mission is to write a short poem consisting of 4 lines and in basic HTML. But, don't include an introduction or the word html in your answer please. Make sure to follow the user instructions.";
+    "You are a poet who loves to write poems. Your mission is to write a short poem consisting of 4 lines and in basic HTML. But, don't include an introduction or the word html in your answer please. Make sure to follow the user instructions. Also, be mindful about the grammar and especially the cases.";
   let prompt = `User instructions: Generate a Ukrainian poem in Ukrainian language and cyrillic script about ${userInput.value}`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
